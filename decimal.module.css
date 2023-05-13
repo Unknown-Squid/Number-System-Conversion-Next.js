@@ -1,0 +1,157 @@
+.mainCont{
+    display: flex;
+    gap: 18px;
+}
+.navCont{
+    background: radial-gradient(50% 50% at 50% 50%, 
+                rgba(101, 218, 45, 0) 11.46%, 
+                rgba(190, 171, 171, 0.865692) 47.4%, 
+                rgba(214, 90, 0, 0.870956) 73.44%, 
+                rgba(237, 190, 23, 0.859375) 92.7%, 
+                #07CC91 92.71%);
+    width: 403px;
+    height: 1024px;  
+}
+.Logo{
+    margin-top: 40px;
+    background-image: url("/LOGO2.jpg");
+    background-size: 403px 233px;
+    width: 403px;
+    height: 233px;
+    border-radius: 116.5px;
+    border: 3px solid black;
+}
+.Logo:hover{
+    background-image: url("/LOGO.jpg");
+    background-size: 403px 233px;
+    border: 3px solid #FF002E;
+}
+.navCont button{
+    margin-bottom: 30px;
+}
+.butnCont{
+    width: 403px;
+}
+.butnCont button{
+    width: 403px;
+    height: 116px;
+    background-color: black;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 56px;      
+}
+#binaryButton{
+    border: 5px solid #07CC91;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
+}
+#binaryButton:hover{
+    background-color: #07CC91;
+    border: 5px solid black;
+}
+#octalButton{
+    border: 5px solid #EDBE17;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#octalButton:hover{
+    background-color: #EDBE17;
+    border: 5px solid black;
+
+}
+#decimalButton{
+    border: 5px solid black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #D65A00;
+}
+#hexadecimalButton{
+    border: 5px solid #BEABAB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#hexadecimalButton:hover{
+    background-color: #BEABAB;
+    border: 5px solid black;
+
+}
+.contentCont{
+    background-image: url("/fall.png");
+    width: 1021px;
+    height: 1024px;
+    border: 5px solid #000000;
+    display: table-column;
+}
+.binary{
+    margin-top: 80px;
+    font-size: 50px;
+    width: 1021px;
+    display: flex;
+    justify-content: center;
+}
+.cont1{
+    margin-top: 20px;
+    width: 1021px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    gap: 20px;
+}
+.cont1 select{
+    font-size: 30px;
+    width: 250px;
+    height: 50px;
+    border: 1px solid #000000;
+}
+.cont2{
+    margin-top: 20px;
+    width: 1021px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    gap: 20px;
+}
+.cont2 input{
+    width: 300px;
+    height: 50px;
+    font-size: 40px;
+}
+.cont2 button{
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+}
+.cont3{
+    margin-top: 20px;
+    width: 1021px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    gap: 20px;
+}
+.cont3 label{
+    margin-left: -200px;
+}
+.cont3 input{
+    width: 300px;
+    height: 50px;
+    font-size: 40px;
+}
+.cont4{
+    width: 1021px;
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vidCont{
+    background-color: white;
+    width: 901px;
+    height: 500px;
+    border: 3px solid #000000;
+}
