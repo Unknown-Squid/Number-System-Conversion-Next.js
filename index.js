@@ -28,14 +28,6 @@ export default function Button() {
                     </div>
                 </div>
             </div>
-        </div>
-
-        //<label className={styles.label}> First Name: </label>
-        //<input className={styles.input} type="text" name="First_Name" value={state.First_Name} onChange={onKeyUp} required></input >
-        //<label className={styles.label}> AGE: </label>
-        //<input className={styles.input} type="text" name="Age" value={state.Age} onChange={onKeyUp} required></input>
-       
-        
+        </div> 
   )
 }
-
