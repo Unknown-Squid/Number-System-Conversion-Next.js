@@ -57,7 +57,7 @@ export default function Button() {
                 </div>
                 <div class={styles.cont3}>
                     <label>RESULT:</label>
-                    <input type="text" name="Result" value={result}/>
+                    <input type="text" name="Result" value={result} disabled="true"/>
                 </div>
                 <div class={styles.cont4}>
                     <div class={styles.vidCont}>
@@ -65,12 +65,5 @@ export default function Button() {
                 </div>               
             </div>
         </div>
-
-        //<label className={styles.label}> First Name: </label>
-        //<input className={styles.input} type="text" name="First_Name" value={state.First_Name} onChange={onKeyUp} required></input >
-        //<label className={styles.label}> AGE: </label>
-        //<input className={styles.input} type="text" name="Age" value={state.Age} onChange={onKeyUp} required></input>
-
-
     )
 }
