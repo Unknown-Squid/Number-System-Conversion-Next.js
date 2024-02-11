@@ -1,6 +1,8 @@
 .mainCont{
     display: flex;
-    gap: 18px;
+    gap: 1%;
+    width: 100vw;
+    height: 100vh;
 }
 .navCont{
     background: radial-gradient(50% 50% at 50% 50%, 
@@ -9,56 +11,57 @@
                 rgba(214, 90, 0, 0.870956) 73.44%, 
                 rgba(237, 190, 23, 0.859375) 92.7%, 
                 #07CC91 92.71%);
-    width: 403px;
-    height: 1024px;  
+    width: 30%;
+    height: 100%; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5%;  
 }
 .Logo{
-    margin-top: 40px;
+    margin-top: 5%;
     background-image: url("/LOGO2.jpg");
-    background-size: 403px 233px;
-    width: 403px;
-    height: 233px;
+    background-size: 100% 100%;
+    width: 56%;
+    height: 20%;
     border-radius: 116.5px;
     border: 3px solid black;
 }
 .Logo:hover{
     background-image: url("/LOGO.jpg");
-    background-size: 403px 233px;
+    background-size: 100% 100%;
     border: 3px solid #FF002E;
 }
 .navCont button{
-    margin-bottom: 30px;
+    margin-bottom: 10%;
 }
 .butnCont{
-    width: 403px;
+    width: 70%;
 }
 .butnCont button{
-    width: 403px;
-    height: 116px;
+    width: 100%;
+    height: 25%;
     background-color: black;
     color: white;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 700;
-    font-size: 46px;
-    line-height: 56px;      
+    font-size: 2vw;   
 }
 #binaryButton{
     border: 5px solid #07CC91;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 #binaryButton:hover{
     background-color: #07CC91;
     border: 5px solid black;
 }
 #octalButton{
-    border: 5px solid #EDBE17;
+    border: 5px solid #EDBE17;;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 #octalButton:hover{
     background-color: #EDBE17;
     border: 5px solid black;
-
 }
 #decimalButton{
     border: 5px solid #D65A00;
@@ -75,11 +78,16 @@
     background-color: #BEABAB;
 }
 .contentCont{
+    box-shadow: 0px 0px 10px 10px black;
     background-image: url("/winter.png");
-    width: 1021px;
-    height: 1024px;
-    border: 5px solid #000000;
-    display: table-column;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .binary{
     margin-top: 80px;
@@ -89,58 +97,73 @@
     justify-content: center;
 }
 .cont1{
-    margin-top: 20px;
-    width: 1021px;
-    height: 100px;
+    margin-top: 2%;
+    width: 100%;
+    height: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 40px;
-    gap: 20px;
+    font-size: 2vw;
+    gap: 2%;
 }
 .cont1 select{
-    font-size: 30px;
-    width: 250px;
-    height: 50px;
+    text-align: center;
+    font-size: 1.5vw;
+    width: 20%;
+    height: 100%;
     border: 1px solid #000000;
 }
 .cont2{
-    margin-top: 20px;
-    width: 1021px;
-    height: 100px;
+    margin-top: 2%;
+    width: 100%;
+    height: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 40px;
-    gap: 20px;
+    font-size: 1.5vw;
+    gap: 2%;
 }
 .cont2 input{
-    width: 300px;
-    height: 50px;
-    font-size: 40px;
+    text-transform: uppercase;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.5vw;
 }
 .cont2 button{
-    width: 200px;
-    height: 50px;
-    font-size: 30px;
+    width: 15%;
+    height: 100%;
+    font-size: 1.5vw;
 }
 .cont3{
-    margin-top: 20px;
-    width: 1021px;
-    height: 100px;
+    margin-top: 2%;
+    width: 100%;
+    height: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 40px;
-    gap: 20px;
+    font-size: 1.5vw;
+    gap: 2%;
 }
 .cont3 label{
-    margin-left: -200px;
+    margin-left: -18%;
 }
 .cont3 input{
-    width: 300px;
-    height: 50px;
-    font-size: 40px;
+    text-transform: uppercase;
+    width: 20%;
+    height: 100%;
+    font-size: 1.5vw;
+    text-align: center;
+}
+.cont3 input:disabled{
+    font-weight: bold;
+    box-shadow: 0px 0px 2px 2px yellow;
+    background-color: white;
+    text-transform: uppercase;
+    width: 20%;
+    height: 100%;
+    font-size: 1.5vw;
+    text-align: center;
 }
 .cont4{
     width: 1021px;
@@ -151,8 +174,7 @@
 }
 .vidCont{
     background-color: white;
-    width: 901px;
-    height: 500px;
+    width: 95%;
+    height: 80%;
     border: 3px solid #000000;
 }
-
